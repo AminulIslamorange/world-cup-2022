@@ -1,0 +1,57 @@
+/* google font */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: gray
+}
+
+/* google font End  */
+
+/* first section style */
+main {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    background-color: rgb(245, 243, 243);
+    padding-top: 20px;
+
+}
+
+
+
+
+
+.banner {
+    display: flex;
+    background-color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+
+}
+
+h1 {
+    font-weight: 500px;
+}
+
+.player-diskription {
+    color: aliceblue;
+
+}
+
+.show {
+    color: gainsboro;
+}
+
+.icon {
+    padding-left: 10px;
+}
+
+.button {
+    color: antiquewhite;
+    font-size: 20px;
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
