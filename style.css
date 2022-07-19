@@ -60,7 +60,7 @@ h1 {
 /* First section style End here */
 /* ----------------Second section style start Now----------------------- */
 .container {
-    margin-top: 20px;
+    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 
@@ -70,5 +70,33 @@ h1 {
     text-align: center;
     flex-direction: column;
     row-gap: 10px;
+    background-color: black;
+    border-radius: 10px;
+    font-weight: 900px;
+    height: 180px;
 
+}
+
+/* Box er Style */
+.match {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin-top: 5px;
+
+}
+
+.group {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px 32px;
+}
+
+.blog {
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 8px 48px;
 }
