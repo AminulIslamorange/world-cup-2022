@@ -24,7 +24,8 @@ main {
 .banner {
     display: flex;
     background-color: black;
-    padding-left: 30px;
+    /* Something chenge */
+    padding-left: 60px;
     padding-right: 30px;
     border-radius: 20px;
     margin-bottom: 10px;
@@ -83,7 +84,7 @@ h1 {
     background-color: white;
     border-radius: 5px;
     padding: 8px 10px;
-    margin-top: 5px;
+    margin-top: 15px;
 
 }
 
@@ -99,4 +100,23 @@ h1 {
     background-color: red;
     border-radius: 5px;
     padding: 8px 48px;
+}
+
+.player-pic {
+    margin-left: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.player-pic img {
+    width: 100%;
+}
+
+.clock-icon {
+    margin-left: 20px;
+}
+
+.comment-icon {
+    margin-left: 20px;
+    margin-right: 20px;
 }
