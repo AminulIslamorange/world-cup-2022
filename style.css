@@ -9,15 +9,16 @@ body {
 /* first section style */
 main {
     display: flex;
+    /* change koreci nice niye aste */
+    flex-direction: column;
     justify-content: center;
-    margin: 30px;
+    margin: 40px;
     background-color: rgb(245, 243, 243);
     padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
-
-
-
 
 
 .banner {
@@ -54,4 +55,20 @@ h1 {
     background-color: red;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+/* First section style End here */
+/* ----------------Second section style start Now----------------------- */
+.container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.box {
+    text-align: center;
+    flex-direction: column;
+    row-gap: 10px;
+
 }
