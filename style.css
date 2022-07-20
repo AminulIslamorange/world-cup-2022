@@ -62,8 +62,8 @@ h1 {
 /* ----------------Second section style start Now----------------------- */
 .container {
     margin-top: 40px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    /* grid-template-columns: repeat(4, 1fr); */
 
 }
 
@@ -75,6 +75,7 @@ h1 {
     border-radius: 10px;
     font-weight: 900px;
     height: 180px;
+    width: 280px;
 
 }
 
@@ -119,4 +120,13 @@ h1 {
 .comment-icon {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.all-player {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 15px;
+    margin-left: 30px;
+    padding: 10px;
+    column-gap: 20px;
 }
