@@ -51,11 +51,18 @@ h1 {
 }
 
 .button {
+
     color: antiquewhite;
     font-size: 20px;
     background-color: red;
     padding: 10px 20px;
     border-radius: 5px;
+
+}
+
+#ancor {
+    text-decoration: none;
+
 }
 
 /* First section style End here */
@@ -76,6 +83,7 @@ h1 {
     font-weight: 900px;
     height: 180px;
     width: 280px;
+    margin-top: 10px;
 
 }
 
