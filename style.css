@@ -130,3 +130,7 @@ h1 {
     padding: 10px;
     column-gap: 20px;
 }
+
+.space {
+    padding-left: 15px;
+}
