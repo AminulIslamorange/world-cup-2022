@@ -117,6 +117,10 @@ h1 {
     padding: 8px 48px;
 }
 
+.bbb {
+    text-decoration: none;
+}
+
 .player-pic {
     margin-left: 5px;
     border: 2px solid white;
@@ -229,3 +233,9 @@ hr {
     padding-right: 10px;
     padding-top: 20px;
 }
+
+
+/* Responsiv And Media Queri */
+
+
+/* Responsiv for Tablet Vew  */
